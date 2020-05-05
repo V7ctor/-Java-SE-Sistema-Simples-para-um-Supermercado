@@ -61,7 +61,7 @@ public class Compra {
 		+ String.format("%.2f", troco()).replace('-', ' '));
 			
 		} else if (valorCompra() < cliente.getSaldo()) {
-			System.out.println("Compra Efetuada com Sucesso!!! Troco $" + String.format("%.2f", troco()));
+			System.out.println("Compra Efetuada com Sucesso!!! Troco $" + String.format("%.2f", troco()).replace('-', ' '));
 		}
 	}
 	
